@@ -60,7 +60,6 @@
         [self swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(insertObject:atIndex:) otherSelector:@selector(ekw_insertObject:atIndex:)];
         [self swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(objectAtIndex:) otherSelector:@selector(ekw_objectAtIndex:)];
         [self swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(removeObjectAtIndex:) otherSelector:@selector(ekw_removeObjectAtIndex:)];
-//        [self swizzleInstanceMethod:NSClassFromString(@"__NSPlaceholderArray") originSelector:@selector(<#selector#>) otherSelector:@selector(<#selector#>)];
     });
 }
 
