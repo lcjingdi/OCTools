@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F74E76D1DD443EE00CADDCD /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		1FD90F241DC1FD9E0071222A /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD90F281DC1FD9E0071222A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FD90F311DC1FD9E0071222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 				1FD90F441DC20FE10071222A /* AppDelegate.m */,
 				1FD90F451DC20FE10071222A /* ViewController.h */,
 				1FD90F461DC20FE10071222A /* ViewController.m */,
+				1F74E76D1DD443EE00CADDCD /* Macro.h */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -332,6 +334,7 @@
 				1FD90F3D1DC1FD9E0071222A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
